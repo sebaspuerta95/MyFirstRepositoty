@@ -1,0 +1,30 @@
+# MyFirstRepositoty
+This is my first repository in GitHub
+
+Algoritmo MatrizOrdenInverso
+	Definir matriz Como Entero
+	Dimension matriz[2,3]
+	matriz[0,0]=3
+	matriz[0,1]=-8
+	matriz[0,2]=6
+	matriz[1,0]=5
+	matriz[1,1]=2
+	matriz[1,2]=-4
+	
+	Imprimir "Nuestra matriz inicial se ve así: "
+	Para renglon=0 Hasta 1 Hacer
+		Para columna=0 Hasta 2 Hacer
+			Imprimir Sin saltar "[",renglon,",",columna,"] = ",matriz[renglon,columna], " "
+		FinPara
+		Imprimir " "
+	FinPara
+	
+	Imprimir "Nuestra matriz invertida se ve así: "
+	Para renglon=1 Hasta 0 Hacer
+		Para columna=2 Hasta 0 Hacer
+			Imprimir Sin Saltar "[",renglon,",",columna,"] = ",matriz[renglon,columna], " "
+		FinPara
+		Imprimir " "
+	FinPara
+	
+FinAlgoritmo
