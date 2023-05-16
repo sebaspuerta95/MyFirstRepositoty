@@ -1,0 +1,19 @@
+# MyFirstRepositoty
+This is my first repository in GitHub
+
+Funcion resultado_suma <- sumar(a,b)
+	// Definimos cuerpo de la función que regresa un valor. 
+	resultado_suma=a-b
+FinFuncion
+
+Algoritmo ProgramaPrincipal
+	// Solicitamos los argumentos a y b.
+	Imprimir "Proporciona el primer argumento: "
+	Leer a
+	Imprimir "Proporciona el segundo argumento: "
+	Leer b
+	
+	resultado=sumar(a,b)
+	// Se manda a llamar la función y el resultado se debe asignar a una variable. 
+	Imprimir "El resultado de la suma es: ", resultado
+FinAlgoritmo
