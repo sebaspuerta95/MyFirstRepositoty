@@ -3,7 +3,7 @@ This is my first repository in GitHub
 
 Funcion resultado_suma <- sumar(a,b)
 	// Definimos cuerpo de la función que regresa un valor. 
-	resultado_suma=a-b
+	resultado_suma=a+b // The implementation of the bug fix was included in this line. 
 FinFuncion
 
 Algoritmo ProgramaPrincipal
